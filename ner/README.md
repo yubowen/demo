@@ -5,8 +5,8 @@
       模型：word2vector+bilstm+crf
       结果(130轮)测试集：精准率89.97%  召回率90.51%  F1调和90.24
                          crf loss: 2.695572
-     模型：bert+bilstm+crf
-     训练：bert与bilstm添加全连接，embedding:768-->120
+      模型：bert+bilstm+crf
+      训练：bert与bilstm添加全连接，embedding:768-->120
            固定bert层，迁移上一个模型的bilstm层+全连接层参数初始化
-     结果(2轮)测试集：精准率53.63%  召回率50.06%  F1调和51.78                                           
+      结果(2轮)测试集：精准率53.63%  召回率50.06%  F1调和51.78                                           
                      crf loss: 22.974451
