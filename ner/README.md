@@ -10,3 +10,8 @@
            固定bert层，迁移上一个模型的bilstm层+全连接层参数初始化
       结果(2轮)测试集：精准率53.63%  召回率50.06%  F1调和51.78                                           
                      crf loss: 22.974451
+      
+      albert+bilstm+crf  fintune
+      tiny版训练80+轮后效果与基本bilstm+crf还相差一点1%不到
+      base版本第九轮已超过基本bilstm+crf 12轮结果：
+            accuracy:  98.96%; precision:  91.79%; recall:  90.71%; FB1:  91.25
